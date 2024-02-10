@@ -7,7 +7,7 @@
     "install": "npm install --prefix frontend",
     "test": "npm test --prefix frontend",
     "build": "npm install --prefix frontend && npm run build --prefix frontend",
-    "heroku-postbuild": "npm run build && cp -a frontend/build/. public/"
+    "heroku-postbuild": "npm run build && cp -a frontend/dist/. public/"
   },
   "author": "Charlie Moynihan"
 }
