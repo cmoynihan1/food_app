@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   root action: :index, controller: 'react_application'
 
+  get 'test', to: 'application#test'
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
