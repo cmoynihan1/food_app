@@ -1,0 +1,13 @@
+{
+  "name": "food_app",
+  "version": "1.0.0beta1",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "scripts": {
+    "start": "npm run dev --prefix frontend",
+    "install": "npm install --prefix frontend",
+    "test": "npm test --prefix frontend",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "heroku-postbuild": "npm run build && cp -a frontend/build/. public/"
+  },
+  "author": "Charlie Moynihan"
+}
