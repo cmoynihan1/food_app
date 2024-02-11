@@ -35,4 +35,5 @@
 /config/master.key
 
 .idea/
+frontend/node_modules/
 
